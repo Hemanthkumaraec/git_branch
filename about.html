@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detail</title>
+</head>
+<body>
+    <h2>Hello, <span id="name">name</span></h2>
+
+    <script>
+        // Prompt user for their name
+        let userName = prompt("Enter your name");
+
+        // Update the span with the entered name, if provided
+        if (userName) {
+            document.getElementById("name").textContent = userName;
+        }
+    </script>
+</body>
+</html>
